@@ -5,70 +5,80 @@ $(document).ready(function() {
 			question: "In the Chinese language, what is the literal meaning of Hong Kong?", 
 			options: ["Fragrant Harbor", "Fishing Village", "Happy Island", "Trade Port"], 
 			answer: "Fragrant Harbor",
-			image: "https://www.abercrombiekent.com/assets_global/media/images/photo_gallery/country/96/Hong-Kong-Junkboat-(1024x460).jpg"
+			image: "assets/images/question_1.jpg"
+			// image: "https://www.abercrombiekent.com/assets_global/media/images/photo_gallery/country/96/Hong-Kong-Junkboat-(1024x460).jpg"
 		}, 
 
 		{
 			question: "According to the 2010 Census, approximately what is the population of Hong Kong?",
 			options: ["7 Million", "10 Million", "13 Million", "16 Million"],
 			answer: "7 Million",
-			image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/People_in_hong_kong.JPG/1024px-People_in_hong_kong.JPG"
+			image: "assets/images/question_2.jpg"
+			// image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/People_in_hong_kong.JPG/1024px-People_in_hong_kong.JPG"
 		}, 
 
 		{
 			question: "Every year in late March, an international sporting festival is held in Hong Kong that involves athletes and visitors from all over the world. What sport is it?",
 			options: ["Dragon Boat Racing", "Rugby Sevens", "Wushu", "Snooker"],
 			answer: "Rugby Sevens", 
-			image: "https://i.dmarge.com/2016/03/Hong-Kong-Sevens-Final-Live-Streaming.jpg"
+			image: "assets/images/question_3.jpg"
+			// image: "https://i.dmarge.com/2016/03/Hong-Kong-Sevens-Final-Live-Streaming.jpg"
 		}, 
 
 		{
 			question: "How many Octopus cards are in circulation in Hong Kong?", 
 			options: ["7 Million", "10 Million", "15 Million", "30 Million"],
 			answer: "30 Million",
-			image: "http://www.discoverhongkong.com/us/images/plan-your-trip/large/5.2.2.2.8-Octopus-card_03b.jpg"
+			image: "assets/images/question_4.jpg"
+			// image: "http://www.discoverhongkong.com/us/images/plan-your-trip/large/5.2.2.2.8-Octopus-card_03b.jpg"
 		}, 
 
 		{
 			question: "How many islands are there in Hong Kong?",
 			options: ["56", "124", "201", "263"],
 			answer: "263",
-			image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/1_lamma_island_aerial_2016.jpg/1200px-1_lamma_island_aerial_2016.jpg"
+			image: "assets/images/question_5.jpg"
+			// image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/1_lamma_island_aerial_2016.jpg/1200px-1_lamma_island_aerial_2016.jpg"
 		}, 
 
 		{
 			question: "Which of these following Hollywood movies was based on a Hong Kong film?",
 			options: ["The Hunger Games", "Gone Girl", "The Departed", "King Kong"],
 			answer: "The Departed",
-			image: "http://www.tasteofcinema.com/wp-content/uploads/2017/02/infernal-affairs-departed.jpg"
+			image: "assets/images/question_6.jpg"
+			// image: "http://www.tasteofcinema.com/wp-content/uploads/2017/02/infernal-affairs-departed.jpg"
 		}, 
 
 		{
 			question: "The unique Hong Kong drink Yuanyang is a mixture of what?",
 			options: ["Chocolate Milk & Horlicks", "Ed Wine & Lemonade", "Coffee & Tea", "Soda & Milk Tea"], 
 			answer: "Coffee & Tea", 
-			image: "http://sg.articles.images.travelog.me/wp-content/uploads/2016/02/01040916/coverimage-770x578.jpg"
+			image: "assets/images/question_7.jpg"
+			// image: "http://sg.articles.images.travelog.me/wp-content/uploads/2016/02/01040916/coverimage-770x578.jpg"
 		}, 
 
 		{
 			question: "Hong Kong has more skyscrapers than which of the following?", 
 			options: ["New York", "Dubai", "Chicago", "All Of The Above"],
 			answer: "All Of The Above",
-			image: "http://i2.cdn.cnn.com/cnnnext/dam/assets/160421121543-01-hong-kong-urban-jungle-super-169.jpg"
+			image: "assets/images/question_8.jpg"
+			// image: "http://i2.cdn.cnn.com/cnnnext/dam/assets/160421121543-01-hong-kong-urban-jungle-super-169.jpg"
 		}, 
 
 		{
 			question: "Which of the following activity is legal in Hong Kong?",
 			options: ["Jaywalking", "Prostitution", "Gambling", "Feeding Wild Monkeys"],
 			answer: "Prostitution",
-			image: "http://i.dailymail.co.uk/i/pix/2014/11/05/article-urn:publicid:ap.org:a62f277ca61a45b7899bdfab5407ccbd-6TrRJaaIZ-HSK1-688_634x436.jpg"
+			image: "assets/images/question_9.jpg"
+			// image: "http://i.dailymail.co.uk/i/pix/2014/11/05/article-urn:publicid:ap.org:a62f277ca61a45b7899bdfab5407ccbd-6TrRJaaIZ-HSK1-688_634x436.jpg"
 		}, 
 
 		{
 			question: "Hong Kong has more of which of the following per person than any other city in the world?",
 			options: ["Rolls Royces", "iPhones", "Toyotas", "Yeezys"],
 			answer: "Rolls Royces",
-			image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/HK_Sheung_Wan_Wing_Lok_Street_Rolls-Royce_automobile_L_yellow_Dec-2012.JPG"
+			image: "assets/images/question_10.jpg"
+			// image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/HK_Sheung_Wan_Wing_Lok_Street_Rolls-Royce_automobile_L_yellow_Dec-2012.JPG"
 		}
 	];
 

@@ -1,0 +1,164 @@
+body {
+	background-image: url("../images/hong_kong.jpg");
+	background-size: cover;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.8);
+	bottom: 2.5%;
+	left: 5%;
+	min-height: auto;
+	overflow: auto;
+	position: absolute;
+	right: 5%;
+	top: 2.5%;
+	width: auto;
+}
+
+.header {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.start, .start_over {
+	/*border: 3px solid rgb(87, 90, 96);*/
+	background-color: rgb(253,214,181);
+	border: 3px solid rgb(116, 163, 217);
+	color: rgb(87, 90, 96);
+	cursor: pointer;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 24px;
+	margin: auto;
+	overflow: auto;
+	padding: 10px;
+	text-align: center;
+	width: 250px;
+}
+
+.start {
+	margin-bottom: 17.5%;
+	margin-top: 17.5%;
+}
+
+.start_over {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.start:hover, .start_over:hover {
+	font-weight: bold;
+}
+
+.general {
+	color: rgb(87, 90, 96);
+	font-family: 'Playfair Display SC', serif;
+	font-size: 24px;
+	margin: auto;
+	text-align: center;
+}
+
+.time_remaining {
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5%;
+	/*margin-top: 50px;*/
+	/*margin-bottom: 20px;*/
+}
+
+.question {
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right:20px;
+}
+
+
+.options {
+	cursor: pointer;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 5px;
+	width: auto;
+}
+
+.options:hover {
+	background-color: rgb(253,214,181);
+	border: 3px solid rgb(116, 163, 217);
+	font-weight: bold;
+}
+
+#option_1, #option_2, #option_3 {
+	margin-bottom: 10px;
+}
+
+#option_4 {
+	margin-bottom: 30px;
+}
+
+.result {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+img {
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	max-height: 250px;
+}
+
+@media screen and (max-width: 736px) {
+	.header {
+		font-size: 30px;
+	}
+
+	.start, .start_over, .general {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+	img {
+		max-height: 150px;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	.header {
+		font-size: 27px;
+	}
+
+	.start, .start_over, .general {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+	.time_remaining {
+		margin-top: 3%;
+	}
+
+	img {
+		max-height: 130px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.header {
+		font-size: 25px;
+	}
+
+	.start, .start_over, .general {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 568px) and (orientation: landscape) {
+	img {
+		max-height: 110px;
+	}
+}
